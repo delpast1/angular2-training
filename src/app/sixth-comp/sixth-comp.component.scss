@@ -1,0 +1,73 @@
+.background6 {
+  background: url('../images/JPG/Layer 303 copy 3.jpg');
+  height: 680px;
+  width: 1450px;
+  position: relative;
+}
+
+.left-info{
+	position: absolute;
+	width: 527px;
+	left: 0;
+	margin-left: 156px;
+	color: #490d67;
+}
+
+.right-form {
+	position: absolute;
+	left: 527px;
+	width: 738px;
+	margin-top: 278px;
+}
+
+.form-group {
+	height: 56px;
+	margin-bottom: 23px;
+}
+
+.contact-info {
+	margin-top: 35px;
+	position: relative;
+	width: inherit;
+}
+
+.contact-info-left {
+	width: 40px;
+}
+
+.contact-info-right {
+	position: absolute;
+	top: 0;
+	left: 43px;
+}
+
+.input-field {
+	height: 56px;
+}
+
+div.text-field {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+p {
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+
+button {
+	margin-top: 20px;
+}
+
+.btn {
+	width: 90px;
+	background-color: #490D67;
+	font-weight: bold;
+	color: white;
+}
+
+.notice {
+	color: white;
+	font-size: 12px;
+	float: right;
+	margin-top: 10px;
+}

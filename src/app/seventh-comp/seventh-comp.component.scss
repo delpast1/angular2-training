@@ -1,0 +1,83 @@
+.background7 {
+  background: url('/images/JPG/Layer 303 copy 5.jpg');
+  height: 472px;
+  width: 1450px;
+  position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 35px;
+	left: 146px;
+}
+
+.footer {
+	width: 1120px;
+	position: relative;
+	top: 125px;
+	margin: auto;
+}
+
+.quick-links {
+	width: 225px;
+	position: absolute;
+	left: 0px;
+}
+
+.follow-us {
+	position: absolute;
+	left: 270px;
+	width: 252px;
+}
+
+.subscribe {
+	width: 563px;
+	position: absolute;
+	left: 560px;
+}
+
+.input-field {
+	height: 50px;
+	width: 395px;
+	border-radius: 2px;
+	background-color: #A386B4;
+}
+
+div.text-input {
+	opacity: 0.5;
+}
+
+input {
+	color: white;
+}
+
+.form {
+	margin-top: 38px;
+}
+
+.btn {
+	width: 142px;
+	height: 48px;
+	background-color: #F6A704;
+	font-weight: bold;
+	color: white;
+	margin-left: 22px;
+	border-radius: 5px;
+}
+
+p {
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}

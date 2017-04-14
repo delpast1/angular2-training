@@ -1,0 +1,118 @@
+.background1 {
+  background: url('/images/JPG/Vector Smart Object12.jpg');
+  height: 1220px;
+  width: 1450px;
+  position: relative;
+}
+
+
+
+.navbar {
+  padding-left: 135px;
+  font-family: Smile Medium;
+  text-align: center;
+}
+
+.navbar-brand {
+  top: 0%;
+  position: absolute;
+}
+
+
+//
+
+#menu-center {
+  top: 39px;
+  left: 420px;
+  position: absolute;
+  color: white;
+}
+
+#menu-center li {
+  display: inline;
+}
+
+#menu-center li a {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#menu-right {
+  top: 39px;
+  right: 150px;
+  position: absolute;
+}
+
+#menu-right li a {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#menu-center li a:hover {
+  color: #00ffba;
+  transition: color 0.5s;
+  background-color: #4F0F6D;
+}
+
+#menu-right li a:hover {
+  color: #00ffba;
+  transition: color 0.5s;
+  background-color: #4F0F6D;
+}
+
+//div
+
+#-hr {
+  padding-top: 30px;
+  position: absolute;
+  left: 150px;
+  right: 150px;
+}
+
+
+.sologan {
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  position: absolute;
+  left: 170px;
+  top: 225px;
+  line-height: 80px;
+  color: orange;
+}
+
+#white-words{
+  padding: 0 0 0 0;
+  color: white;
+}
+
+#orange-words {
+  color: orange;
+}
+
+.introduce {
+  font-size: 24px;
+  position: absolute;
+  left: 170px;
+  top: 440px;
+  color: #ccc;
+  max-width: 467px;
+}
+
+.blockquote {
+  position: absolute;
+  top: 890px;
+  left: 200px;
+  right: 30%;
+  width: 957px;
+  height: 235px;
+  color: #544949;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+blockquote {
+  border-left: none;
+}
