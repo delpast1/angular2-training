@@ -12,9 +12,9 @@ export class SeventhCompComponent implements OnInit {
 		'color': 'white',
 		'font-weight': 'bold',
 		'line-height': '50px',
-		'border-bottom': 'solid',
 		'border-width': '1px',
-		'margin-bottom': '35px'
+		'margin-bottom': '35px',
+		'border-bottom': '1px solid rgba(255,255,255,0.5)'
 	};
 
 	content1 = {

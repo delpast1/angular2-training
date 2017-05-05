@@ -15,7 +15,8 @@ export class ThirdCompComponent implements OnInit {
 	content2 = {
 		'font-size': '25px',
 		'color': '#827070',
-		'line-height': '45px'
+		'line-height': '45px',
+		'margin-top': '30px'
 	};
   constructor() { }
 

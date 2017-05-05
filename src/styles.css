@@ -1,19 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
-div {
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background-repeat:no-repeat;
-	  -webkit-background-size:cover;
-	  -moz-background-size:cover;
-	  -o-background-size:cover;
-	  background-size:cover;
-	  background-position:center;
-	  margin: 0 0 0 0;
-	  width: 1450*0.925px;
+body {
+	font-family: "Proxima Nova";
 }
 
 .container {
   width: 100%;
-  max-width: 1600px;
   margin: 0 auto;
 }
+
+.center-div {
+  margin: 0 auto;
+  display: table;
+  float: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+ 	@media only screen and (min-width : 480px) {
+ 		.container {
+ 			min-width: 1100px !important;
+ 		}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    	.container {
+ 			min-width: 1100px !important;
+ 		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	.container {
+ 			min-width: 1100px !important;
+ 		}
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    	.container {
+ 			min-width: 1100px !important;
+ 		}
+
+
+/* 		.header-top .menu>ul>li{ 
+			margin-left: 20px;
+		}*/
+    }
+
+    @media only screen and (max-width : 1250px) {
+    	.header-top .menu{ 
+			margin-left: 60px;
+		}
+
+		.header-top .number-phone {
+		  	display: none;
+		}
+
+		.product>img{
+			margin-left: -100px;
+		}
+
+		.kanguru>img {
+			margin-left: -50px;
+		}
+    }
+
 

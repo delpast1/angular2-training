@@ -1,23 +1,15 @@
-.background4 {
+.fourth-component {
   background: url('/images/JPG/Layer 303 copy 6.jpg');
   height: 787px;
-  width: 1450px;
   position: relative;
 }
 
-#kanguru {
-	background: url('../images/PNG/Vector Smart Object2.png');
-	position: absolute;
-	width: 493px;
-	height: 400px;
-	left: 167px;
-	top: 223px;
-	font-family: "Tahoma", Geneva, sans-serif;
+.kanguru {
+	padding-top: 220px;
 }
 
-#content {
-	position: absolute;
-	left: 800px;
-	top: 115px;
+.content {
 	color: #fdfdfd;
+	margin-left: 50px;
+	padding-top: 110px;
 }

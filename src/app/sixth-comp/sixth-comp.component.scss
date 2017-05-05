@@ -1,65 +1,35 @@
-.background6 {
-  background: url('../images/JPG/Layer 303 copy 3.jpg');
+.sixth-component {
+  background: url('/images/JPG/Layer 303 copy 3.jpg');
   height: 680px;
-  width: 1450px;
   position: relative;
 }
 
-.left-info{
-	position: absolute;
-	width: 527px;
-	left: 0;
-	margin-left: 156px;
+.contact{
 	color: #490d67;
+	margin-top: 120px;
 }
 
-.right-form {
-	position: absolute;
-	left: 527px;
-	width: 738px;
-	margin-top: 278px;
+
+.form {
+	margin-top: 270px;
 }
 
-.form-group {
-	height: 56px;
-	margin-bottom: 23px;
-}
-
-.contact-info {
-	margin-top: 35px;
-	position: relative;
-	width: inherit;
-}
-
-.contact-info-left {
-	width: 40px;
-}
-
-.contact-info-right {
-	position: absolute;
-	top: 0;
-	left: 43px;
-}
 
 .input-field {
-	height: 56px;
+	min-height: 56px;
 }
 
-div.text-field {
+.text-field {
 	margin-left: 0px;
 	margin-right: 0px;
 }
 
-p {
-	font-family: "Tahoma", Geneva, sans-serif;
-}
-
-button {
+.text-field .btn {
 	margin-top: 20px;
 }
 
 .btn {
-	width: 90px;
+	min-width: 90px;
 	background-color: #490D67;
 	font-weight: bold;
 	color: white;

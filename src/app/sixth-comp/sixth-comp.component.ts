@@ -10,7 +10,6 @@ export class SixthCompComponent implements OnInit {
 	content1 = {
 		'font-size': '55px',
 		'font-weight': 'bold',
-		'margin-top': '120px',
 		'margin-bottom': '75px'
 	};
 

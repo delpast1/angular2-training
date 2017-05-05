@@ -1,118 +1,157 @@
-.background1 {
-  background: url('/images/JPG/Vector Smart Object12.jpg');
+/*COMPONENTS*/
+.first-component {
+  background: url("/images/JPG/Vector Smart Object12.jpg");
   height: 1220px;
-  width: 1450px;
+  position: relative;
+}
+
+/**/
+
+.line {
+  /* border 0.5px */
+    border-bottom: 1px solid rgba(255,255,255,0.5); 
+    width: 96%;
+    float: left;
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.header-top {
+    padding-top: 20px;
+    padding-bottom: 22px;
+    border-radius: 0;
+    display: block;
+    max-width: 88%;
+    margin-left: 90px;
+}
+
+.header-top .logo {
+  left: -15px;
+}
+
+.header-top .logo>a>img {
+  margin-right: 10px;
+}
+
+.header-top .menu>ul {
+  margin: 6px auto;
+  list-style-type: none;
+  text-align: center;
+}
+.header-top .menu>ul>li {
+  margin-left: 2px;
+  display: inline-table;
+}
+
+.header-top .menu>ul>li>a{
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+}
+
+.header-top .menu>ul>li>a:hover {
+  background-color: #cfd4d8;
+  color: black;
+  transition: background-color 0.5s, color 0.5s;
+  border-radius: 5px;
+}
+
+.header-top .dropdown {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+.header-top .dropdown .btn-menu {
+  width: 100px;
+  margin-top: 23px;
+  margin-left: 30px;
+  max-height: 40px;
+}
+
+.header-top .dropdown>ul {
+  background-color:#cfd4d8;
+}
+
+.header-top .dropdown>ul>li>a {
+  font-weight: bold;
+}
+
+
+
+.header-top .dropdown>ul>li>a:hover {
+  background-color: #fff;
+  transition: background-color 0.5s;
+  border-radius: 5px;
+}
+
+.header-top .number-phone {
+  margin-top: 30px;
+}
+
+.header-top .number-phone p {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.intro {
+  padding-top: 90px;
+  margin-left: 85px;
+}
+
+.intro .sologan>p>span {
+  font-weight: bold;
+  font-size: 110px;
+  line-height: 90px;
+}
+
+.intro .description {
+  padding-top: 20px;
+}
+.intro .description>p {
+  font-size: 30px;
+  color: #eae8e8;
+}
+
+.intro .tell-me-more {
+  padding-top: 20px;
+}
+
+.intro .btn {
+  background-color: #931C82;
+  color: #fff;
+  font-weight: bold;
+}
+
+.quote  {
+  padding-top: 245px;
+  text-align: center;
+}
+
+.quote .quote-content {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
   position: relative;
 }
 
 
 
-.navbar {
-  padding-left: 135px;
-  font-family: Smile Medium;
-  text-align: center;
+.quote .quote-line {
+  border-bottom: 1px solid rgba(12,12,12,0.5); 
+  display: block;
+  width: 50px;
+  margin: 0 auto;
 }
 
-.navbar-brand {
-  top: 0%;
-  position: absolute;
-}
-
-
-//
-
-#menu-center {
-  top: 39px;
-  left: 420px;
-  position: absolute;
-  color: white;
-}
-
-#menu-center li {
-  display: inline;
-}
-
-#menu-center li a {
-  color: white;
+.quote .quote-author {
+  font-family: "Proxima Nova";
+  font-size: 25px;
   font-weight: bold;
-  font-size: 15px;
-}
-
-#menu-right {
-  top: 39px;
-  right: 150px;
-  position: absolute;
-}
-
-#menu-right li a {
-  color: orange;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#menu-center li a:hover {
-  color: #00ffba;
-  transition: color 0.5s;
-  background-color: #4F0F6D;
-}
-
-#menu-right li a:hover {
-  color: #00ffba;
-  transition: color 0.5s;
-  background-color: #4F0F6D;
-}
-
-//div
-
-#-hr {
-  padding-top: 30px;
-  position: absolute;
-  left: 150px;
-  right: 150px;
+  color: black;
 }
 
 
-.sologan {
-  font-family: 'proxima-nova', sans-serif;
-  font-size: 90px;
-  font-weight: bold;
-  position: absolute;
-  left: 170px;
-  top: 225px;
-  line-height: 80px;
-  color: orange;
-}
-
-#white-words{
-  padding: 0 0 0 0;
-  color: white;
-}
-
-#orange-words {
-  color: orange;
-}
-
-.introduce {
-  font-size: 24px;
-  position: absolute;
-  left: 170px;
-  top: 440px;
-  color: #ccc;
-  max-width: 467px;
-}
-
-.blockquote {
-  position: absolute;
-  top: 890px;
-  left: 200px;
-  right: 30%;
-  width: 957px;
-  height: 235px;
-  color: #544949;
-  text-align: center;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-blockquote {
-  border-left: none;
-}
