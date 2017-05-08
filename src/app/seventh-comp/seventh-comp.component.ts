@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-seventh-comp',
   templateUrl: './seventh-comp.component.html',
   styleUrls: ['./seventh-comp.component.scss']
 })
+
 export class SeventhCompComponent implements OnInit {
 
 	contentTitle = {
@@ -24,7 +26,29 @@ export class SeventhCompComponent implements OnInit {
 		'line-height': '20px'
 	};
 
-  constructor() { }
+	subscribeForm : FormGroup;
+	email: FormControl
+
+  	constructor(builder: FormBuilder) { 
+  		this.email = new FormControl('',[Validators.required]);
+  		this.subscribeForm = builder.group({
+  			email: this.email
+  		});
+  	}
+	  submitForm() {
+		  if (!this.subscribeForm.valid) {
+			alert(`The email is required.`);
+		} else {
+			var email = this.subscribeForm.value.email;
+			var regexp = new RegExp('[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$');
+			if (regexp.test(email)) {
+				alert(`Email: ${this.subscribeForm.value.email}`);
+			} else {
+				alert(`Your email is not correct.`);
+			}
+
+		}
+	  }
 
   ngOnInit() {
   }

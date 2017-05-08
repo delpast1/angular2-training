@@ -21,14 +21,19 @@
 			<p [ngStyle]="contentTitle">SUBSCRIBE TO OUR NEWSLETTER</p>
 			<p [ngStyle]="content1">Stay up to date with what's happening at Digiruu by subscribing to our monthly newsletter...</p>
 			<div class="form">
-				<form class="form-inline">
+				<form class="form-inline" [formGroup]="subscribeForm" (submit)="submitForm()">
 					<div class="row">
 	  					<div class="form-group text-input col-xs-8">
-	    					<input type="text" class="form-control input-field" placeholder="Enter Email">
+	    					<input type="text" class="form-control input-field" placeholder="Enter Email" 
+							name="email" [formControl]="email">
+	    					<div style="color: #fff; font-size: 20px" [hidden]="email.valid || email.untouched">
+	    						<p>The email is required.</p>
+	    					</div>
 	  					</div>
 	  					<div class="col-xs-4 pull-right">
-	  						<button type="submit" class="btn">SUBMIT</button>
+	  						<button type="submit" class="btn" (click)="clickSubmit()">SUBMIT</button>
 	  					</div>
+
   					</div>
 				</form>
 			</div>
