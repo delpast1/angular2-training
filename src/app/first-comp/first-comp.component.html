@@ -6,28 +6,13 @@
         </div>
         <div class="col-xs-8 menu" id="menu">
           <ul class="nav  center-div" role="menu">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">YOUR PRODUCT</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">WHY US</a></li>
-            <li><a href="#">FEATURES</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="#intro" (click)="goTo('intro')">HOME</a></li>
+            <li><a href="#yourproduct" (click)="goto('yourproduct')">YOUR PRODUCT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#whyus">WHY US</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
-          <!-- <div class="row hidden-lg">
-            <div class="dropdown pull-left">
-              <button type="button" class="btn dropdown-toggle btn-menu" data-toggle="dropdown">
-                <span><i class="fa fa-list"></i>&nbsp;&nbsp;MENU</span>
-              </button>
-              <ul class="dropdown-menu nav">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">YOUR PRODUCT</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">WHY US</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">CONTACT</a></li>
-              </ul>
-            </div>
-          </div> -->
         </div>
         <div class=" col-xs-2 number-phone hidden-md hidden-sm hidden-xs">
           <span style="color: orange"><p>07955 396 217</p></span>
@@ -38,7 +23,7 @@
       </div>
     </div>
   <div class="clearfix"></div>
-  <div class="row pull-left intro">
+  <div class="row pull-left intro" id="intro">
     <div class="col-xs-12 sologan pull-left">
       <p>
         <span style="color: white">make the</span>
@@ -61,7 +46,7 @@
   </div>
   <div class="clearfix"></div>
   <div class="row quote">
-      <div class="quote-content">
+      <div id ="quote" class="quote-content">
         <p>WHEN YOU'RE A CARPENTER MAKING A BEAUTIFUL CHEST OF DRAWERS,<br>
         YOU'RE NOT GOING TO USE A PIECE OF PLYWOOD ON THE BACK, EVEN <br>
         THOUGH IT FACES THE WALL AND NOBODY WILL SEE IT. YOU'LL KNOW <br>

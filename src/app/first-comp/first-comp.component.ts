@@ -15,4 +15,7 @@ export class FirstCompComponent implements OnInit {
   ngOnInit() {
   }
 
+  goTo(location: string): void {
+    window.location.hash = location;
+  }
 }
