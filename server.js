@@ -12,6 +12,9 @@ const forceSSL = function() {
     next();
   }
 }
+app.use(express.static(__dirname + '/dist'));
+
+app.listen(process.env.PORT || 8080);
 
 app.use(forceSSL());
 // Start the app by listening on the default
